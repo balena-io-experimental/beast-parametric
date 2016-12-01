@@ -8,7 +8,7 @@ fi
 
 if [ -n "$URL" ]; then
   echo "Downloading: ${URL}"
-  wget "${URL}" images/web-image.jpg
+  wget "${URL}" -O images/web-image.jpg
   IMAGE="web-image.jpg"
 fi
 
